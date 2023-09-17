@@ -3,6 +3,11 @@
 Implemented in python using pygame cobbled together quickly
 Will probably improve with patterns and arguments at some point
 
+## Requirements 
+Install requirements with 
+`pip -r requirements.txt`
+
+## Run
 Run with
 `python3 life.py`
 

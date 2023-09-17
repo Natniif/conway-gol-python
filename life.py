@@ -71,7 +71,7 @@ def main():
 
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    pygame.display.set_caption("Conways game of life")
+    pygame.display.set_caption("Conway's game of life")
 
     running = True
     clock = pygame.time.Clock()
