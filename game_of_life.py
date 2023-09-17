@@ -32,8 +32,8 @@ def conway(updated_grid: list, i: int, j: int):
 
     neighbours = []
 
-    for x in range(i-1, i+1):
-        for y in range(j-1, j+1):
+    for x in range(i-1, i+2):
+        for y in range(j-1, j+2):
             if 0 <= x < GRID_SIZE and 0 <= y < GRID_SIZE and (x != i or y != j):
                 neighbours.append(grid[x][y])
 
