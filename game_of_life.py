@@ -40,18 +40,16 @@ def conway(updated_grid: list, i: int, j: int):
     alive = sum(neighbours)
 
     if (grid[i][j] == 0):
-        if (alive == 3 or alive == 2):
+        if (alive == 3):
             # becomes alive
             updated_grid[i][j] = 1
-        elif (alive < 2):
+        else:
             updated_grid[i][j] = 0
     elif (grid[i][j] == 1):
-        if (alive < 2):
+        if (alive < 2 or alive > 3):
             updated_grid[i][j] = 0
         elif (alive == 2 or alive == 3):
             updated_grid[i][j] = 1
-        elif (alive > 3):
-            updated_grid[i][j] = 0
 
 
 def draw_grid() -> None:
