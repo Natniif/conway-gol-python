@@ -5,7 +5,7 @@ import random
 WIDTH, HEIGHT = 800, 800
 GRID_SIZE = 100
 CELL_SIZE = WIDTH // GRID_SIZE
-FPS = 5
+FPS = 10
 
 BLACK = (0, 0, 0)
 GREEN = (57, 255, 20)
@@ -76,7 +76,7 @@ def main() -> None:
         pygame.display.flip()
 
         clock.tick(FPS)
-        time.sleep(0.1)
+        time.sleep(0.05)
 
     pygame.quit()
 
