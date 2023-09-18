@@ -1,6 +1,6 @@
 # Conway's game of life
 
-Implemented in python using pygame cobbled together quickly
+Implemented of [Conways Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life) in python using pygame cobbled together quickly
 
 ## Usage
 
